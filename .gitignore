@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.vscode/
+.env
+
+# Runtime output
+results/
+Output/
+FRS_Tool/architectDependency/GCDependecies/*
+!FRS_Tool/architectDependency/GCDependecies/.gitkeep
