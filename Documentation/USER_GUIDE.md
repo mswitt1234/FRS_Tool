@@ -1,10 +1,12 @@
 # FRS Tool — User Guide
 
-Covers the interactive run flow for the **Queues** and **Groups** importers. For column-by-column CSV detail see `CSV_REFERENCE_QUEUES.md` and `CSV_REFERENCE_GROUPS.md`.
+Covers the interactive run flow for the **Queues** and **Groups** importers. For column-by-column CSV detail see [`CSV_REFERENCE_QUEUES_General.md`](https://github.com/mswitt1234/FRS_Tool/blob/main/Documentation/CSV_REFERENCE_QUEUES_General.md) and `CSV_REFERENCE_GROUPS.md`.
 
 ---
 
 ## 1. Before you run
+
+Rename ".sample.env" to ".env" and update credentials within. This will be the org the tool connects to.
 
 | Check | Why |
 |---|---|
