@@ -1,6 +1,6 @@
 # Queue CSV Syntax — Core Columns
 
-Covers all 35 queue CSV columns **except** the four advanced-routing fields (`routingRules`, `bullseye`, `groupRouting`, `MemberGroups`), which are documented separately.
+Covers all 35 queue CSV columns **except** the four advanced-routing fields (`routingRules`, `bullseye`, `groupRouting`, `MemberGroups`), which are documented separately [here](https://github.com/mswitt1234/FRS_Tool/blob/main/Documentation/CSV_REFERENCE_QUEUES_Complex.md).
 
 Values are given from the Genesys Cloud side first — what the setting is, where it lives in the admin UI, and what the Platform API accepts — then how this tool's CSV expresses it. Enum values below were read from the `PureCloudPlatformClientV2` SDK models, not inferred from the tool's code.
 
