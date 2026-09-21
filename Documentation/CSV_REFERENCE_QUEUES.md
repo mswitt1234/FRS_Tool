@@ -10,7 +10,7 @@ Derived from `queues.py` as of 2026-09-19. This is the authoritative list; the e
 
 **Headers are case-sensitive.** `MemberGroups` and `CallbackLiveVoice` are capitalised; `callerIDNum`, `slPercentage`, and `alerting_timeout_seconds` follow their own conventions. Copy the header row from `templates/queue_import_template.csv` rather than typing it. Trailing spaces in a header will also fail the match.
 
-**A blank cell never means "set this to empty."** It means either "leave as-is" or "reset to default", depending on the clear-blanks prompt — see §5.
+**A blank cell never means "set this to empty."** It means either "leave as-is" or "reset to default", depending on the clear-blanks prompt — see "Prompt 5 — Create or update" section in the User Guide.
 
 **Quote any value containing a comma.** Most compound fields are comma-delimited internally, so they need standard CSV double-quoting:
 
