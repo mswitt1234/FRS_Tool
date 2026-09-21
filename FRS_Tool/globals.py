@@ -3,8 +3,6 @@ from dotenv import load_dotenv
 from PureCloudPlatformClientV2.rest import ApiException
 import PureCloudPlatformClientV2 as gct
 from pprint import pprint
-global gc
-global org
 global env
 global userInputClear
 global userInputCreate
@@ -13,13 +11,13 @@ load_dotenv()
 
 gc = gct
 
-# Secrets — read from main.env.
+# Secrets — read from .env
 client_id = os.environ["GC_CLIENT_ID"]
 client_secret = os.environ["GC_CLIENT_SECRET"]
 
 # Not secrets, but they must match the credentials above.
-region_name = os.environ["GC_REGION"]   # e.g. ca_central_1
-env = os.environ["GC_ENV"]              # e.g. cac1.pure.cloud
+region_name = os.environ["GC_REGION"]
+env = os.environ["GC_ENV"]
 
 region = getattr(gc.PureCloudRegionHosts, region_name)
 gc.configuration.host = region.get_api_host()
